@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchView">
+        <item name="floatingSearch_backgroundColor">@color/white_pressed</item>
+        <item name="floatingSearch_viewSearchInputTextColor">@color/mapboxGrayDark</item>
+<!--        <item name="floatingSearch_viewSuggestionItemTextColor"></item>-->
+        <item name="floatingSearch_hintTextColor">@color/half_black</item>
+<!--        <item name="floatingSearch_dividerColor"></item>-->
+<!--        <item name="floatingSearch_clearBtnColor"></item>-->
+<!--        <item name="floatingSearch_leftActionColor"></item>-->
+<!--        <item name="floatingSearch_menuItemIconColor"></item>-->
+<!--        <item name="floatingSearch_suggestionRightIconColor"></item>-->
+<!--        <item name="floatingSearch_actionMenuOverflowColor"></item>-->
+    </style>
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/mapboxWhite</item>
+    </style>
+</resources>
